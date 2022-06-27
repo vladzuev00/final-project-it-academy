@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="dao_tests_suite">
+    <test name="dao_test">
+        <classes>
+            <class name="by.itacademy.zuevvlad.cardpaymentproject.dao.user.AdministratorDAO" />
+            <class name="by.itacademy.zuevvlad.cardpaymentproject.dao.BankAccountDAOTest" />
+            <class name="by.itacademy.zuevvlad.cardpaymentproject.dao.user.ClientDAOTest" />
+            <class name="by.itacademy.zuevvlad.cardpaymentproject.dao.PaymentCardDAOTest" />
+            <class name="by.itacademy.zuevvlad.cardpaymentproject.dao.PaymentDAOTest" />
+            <class name="by.itacademy.zuevvlad.cardpaymentproject.dao.user.UserDAOTest" />
+        </classes>
+    </test>
+</suite>
